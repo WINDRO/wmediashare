@@ -16,7 +16,7 @@ bot.on('guildMemberAdd', member => {
     var guild = bot.guilds.get("409076115374866433")
     var add = bot.channels.get("409079636807516171")
     if(guild1 == guild.id) {
-      add.send(`Salut ${member}, bienvenue sur le serveur **${guild.name}**! Fais bien ta publicité !`);
+      add.send(`Salut ${member}, bienvenue sur le serveur **${guild.name}**! Pense à participer au <#410523247503736852> pour tenter de gagner une énorme pub pour ton serveur discord !`);
     } else {
       return
     }
