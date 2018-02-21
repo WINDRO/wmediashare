@@ -16,7 +16,7 @@ bot.on('guildMemberAdd', member => {
     var guild = bot.guilds.get("409076115374866433")
     var add = bot.channels.get("409079636807516171")
     if(guild1 == guild.id) {
-      add.send(`Salut ${member}, bienvenue sur le serveur **${guild.name}**! Si tu invites 10 membres sur ce discord avec ce discord tu recevra automatiquemen un grade V.I.P !`);
+      add.send(`Salut ${member}, bienvenue sur le serveur **${guild.name}**! Si tu invites 10 membres sur ce discord avec ta propre invitation tu recevra automatiquemen un grade V.I.P !`);
     } else {
       return
     }
